@@ -1703,4 +1703,13 @@ p {
     padding: 0 2rem;
     top: 0;
   }
+  /* =========Portfolio========= */
+  .portfolio .product {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .portfolio .product .item-box {
+    width: 130px;
+    height: 130px;
+  }
 }
