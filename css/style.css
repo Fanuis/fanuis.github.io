@@ -1722,3 +1722,16 @@ p {
     height: 130px;
   }
 }
+
+@media only screen and (max-width: 280px) {
+  *,
+  section {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 180px) {
+  *,
+  section {
+    max-width: 100%;
+  }
+}
