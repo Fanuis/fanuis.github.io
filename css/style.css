@@ -1652,6 +1652,15 @@ p {
   html {
     font-size: 85%;
   }
+   /* =========Portfolio========= */
+  .portfolio .product {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .portfolio .product .item-box {
+    width: 150px;
+    height: 150px;
+  }
   /* =====Testimoni====== */
   .map-img {
     width: 90%;
