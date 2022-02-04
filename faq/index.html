@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- lightbox CSS -->
+  <link rel="stylesheet" href="../lightbox.css  ">
+  <script src="../lightbox-plus-jquery.js"></script>
+  <!-- My Style -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Pertanyaan yang sering ditanyakan</title>
+</head>
+
+<body>
+  <!-- =================Navbar================ -->
+
+  <nav id="navbar">
+    <div class="logo"><a href="../index.html">Fanuis</a></div>
+
+    <div class="toggle">
+      <a id="nav-toggle" href="#!"><span></span></a>
+
+    </div>
+    <ul class="navigation">
+      <li class="menu"><a href="../index.html">Beranda</a></li>
+      <li class="menu"><a href="../index.html#about">Tentang</a></li>
+      <li class="menu dropdownSatu"><a class="drop" href="#product">Produk <i class="fas fa-angle-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a class="drop" href="#">Kaos</a></li>
+          <li><a class="drop" href="#">Polo Shirt</a></li>
+          <li><a class="drop" href="#">Kemeja</a></li>
+          <li><a class="drop" href="#">Seragam</a></li>
+          <li><a class="drop" href="#">Sweater</a></li>
+          <li><a class="drop" href="#">Celana</a></li>
+          <li><a class="drop" href="#">Topi</a></li>
+        </ul>
+      </li>
+      <li class="menu"><a href="../index.html#portfolio">Portfolio</a></li>
+      <li class="menu"><a href="../index.html#contact">Kontak</a></li>
+      <li class="menu  active"><a href="#">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============Navbar End========== -->
+  <main class="main_grid">
+    <!-- ----------------Accordion------------- -->
+    <div class="left_content">
+      <section>
+  
+        <div class="accordion" id="accordionPanels">
+          <div id="panelsStayOpen-collapseOne" class="accordion-show">
+            <div class="accordion_title">
+              <h2>FAQ</h2>
+              <small>Frequently Asked Questions</small>
+            </div>
+          </div>
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                1. Berapa Minimal Quantity Order ??
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloribus odit expedita enim. Suscipit, consequuntur et quidem quaerat ad, veritatis natus incidunt iusto illum eum tempore praesentium ipsam nemo repudiandae. Cupiditate repudiandae et distinctio, eligendi rerum nostrum recusandae maiores laborum incidunt temporibus saepe quis ut? Provident, a tempore. Saepe, accusantium.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseTwo">
+                2. Bagaimana Sistem Pembayaran
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseThree">
+                3. Bagaimana Sistem Pengiriman
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat mollitia dolores voluptatem quod
+                voluptates. Fugiat illo necessitatibus dicta. Saepe enim odit ipsa animi ullam voluptatem aliquam minus
+                deleniti iusto accusantium cupiditate perferendis nisi sequi, consequatur et laboriosam aut voluptas
+                labore earum. Temporibus tempore sapiente ipsam iusto earum laudantium dolor! Adipisci fuga libero
+                architecto minus voluptatem voluptas expedita a. Hic aut quidem consequatur exercitationem. Voluptates
+                mollitia nesciunt ratione laborum natus quasi alias magni impedit iste, magnam obcaecati laboriosam
+                dolores id asperiores! Omnis nam magni corrupti debitis praesentium ab nobis eos, qui facilis cumque
+                quidem, iusto, mollitia aliquam esse placeat ut! Quisquam perferendis accusamus sunt consequatur, soluta
+                repellendus laborum odio voluptates enim! Consequuntur sint fuga cum eum corrupti nihil provident itaque
+                facere!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseFour">
+                4. Bagaimana Cara Menentukan
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse "
+              aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive">
+                5. Bagaimana Cara Menentukan
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFive">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseSix">
+                6. Bagaimana Cara Menentukan
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSix">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSeven" aria-controls="panelsStayOpen-collapseSeven">
+                7. Bagaimana Cara Menentukan
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseEight">
+                8. Bagaimana Cara Menentukan
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingEight">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseNine">
+                9. Bagaimana Cara Menentukan
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingNine">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- --X--------------Accordion-----------X-- -->
+  
+      <!-- -------------Custmer Service---------- -->
+      <section>
+        <div class="container__info ">
+          <div class="box__info">
+            <div class="tittle__info text-center  pt-md-5">
+              <h5>Masih Ada Pertanyaan Lainnya ??</h5>
+              <small>Hubungi Customer Service Kami Untuk Informasi Lebih Lanjut</small>
+            </div>
+            <div class="row  text-center py-sm-3 p-md-5">
+              <div class="col-lg-6 box__content">
+                <img src="../assets/customer-support.png" alt="">
+                <div class="cs1">
+                  <p>Ricky</p>
+                  <h5>0821-2266-4238</h5>
+                  <a href="#" class="btn__info" type="button">Chat</a>
+                </div>
+              </div>
+              <div class="col-lg-6 box__content">
+                <img src="../assets/support.png" alt="">
+                <div class="cs1">
+                  <p>Hesty</p>
+                  <h5>0821-2266-4239</h5>
+                  <a href="#" class="btn__info" type="button">Chat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- ----X---------Custmer Service------X---- -->
+  
+  
+  
+    </div>
+    <!-- ------------------SideBar------------------- -->
+    <div class="faq_sidebar">
+      <div class="sidebar_title">
+        <h4>SIDEBAR</h4>
+      </div>
+      <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facere nemo, cumque ipsum blanditiis
+        magnam nisi excepturi numquam necessitatibus omnis ipsam rem sequi deserunt ea a ratione ducimus facilis fuga
+        incidunt praesentium. Architecto tempore doloremque cupiditate deserunt delectus dolor distinctio laborum
+        laboriosam ab numquam officia vero dolorum laudantium, repellendus beatae? Sunt eligendi alias repellendus fugiat
+        incidunt rem </article>
+    </div>
+  
+  
+  </main>
+  
+
+  <!-- ===================Footer================== -->
+  <footer class="footer">
+    <div class="row text-center align-items-center">
+      <div class="col-md-12 footer_brand ">
+
+        <h2>CV. FANUIS</h2>
+        <small>Konveksi & Sablon Bandung</small>
+      </div>
+      <div class="col-md-8 text-center offset-2 content_footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore totam esse reiciendis iste, doloremque
+          officia accusamus qui ea dolorem perferendis.</p>
+      </div>
+      <div class="col-md-12 text-center mt-5">
+        <div class="social_media">
+          <small>Follow kami :</small>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="far fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row justify-content-around mb-3 copyright">
+      <div class="col-sm-6 col-lg-4">
+        <small>CV.FANUIS © 2020 - 2022 <a href="#!">fanuis.com</a></small>
+      </div>
+      <div class="col-sm-6 col-lg-4 cookie_link">
+        <a href="">Kebijakan Privasi</a>
+        <a href="">Syarat & Ketentuan</a>
+        <a href="">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+  <!-- ================End Footer================== -->
+
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/script.js "></script>
+
+</body>
+
+</html>
